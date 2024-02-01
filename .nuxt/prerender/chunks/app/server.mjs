@@ -546,7 +546,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./assets/about-vRS7kbFB.mjs').then((m) => m.default || m)
+    component: () => import('./assets/about-Vdvf80xn.mjs').then((m) => m.default || m)
   },
   {
     name: "contact",
@@ -562,7 +562,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./assets/cv-IKnR39BM.mjs').then((m) => m.default || m)
+    component: () => import('./assets/cv-Ncp9qzhG.mjs').then((m) => m.default || m)
   },
   {
     name: "experience",
@@ -570,7 +570,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./assets/experience-E7p2gGJU.mjs').then((m) => m.default || m)
+    component: () => import('./assets/experience-HJ6FaVuh.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
