@@ -555,7 +555,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.redirect,
-    component: () => import("./assets/cv-Ncp9qzhG.js").then((m) => m.default || m)
+    component: () => import("./assets/cv-DZ5KuzfL.js").then((m) => m.default || m)
   },
   {
     name: "experience",

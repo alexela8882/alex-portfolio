@@ -1,0 +1,1 @@
+import{u as t,o,v as s,t as a,x as c}from"./entry.101rir7u.js";const n=c("embed",{src:"https://alexela8882.github.io/alex-portfolio/files/AlexanderCV.pdf",width:"100%",height:"100vh"},null,-1),r=[n],d={__name:"cv",setup(l){const e=t();return o(()=>{e.push("contact")}),(u,_)=>(a(),s("div",null,r))}};export{d as default};

@@ -20,7 +20,7 @@ import { dirname, resolve } from 'file://C:/Users/alexe/Documents/devs/portfolio
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "cb12f1c0-3544-4fb9-a586-6508932bd66a"
+    "buildId": "ca233cb0-05ad-48f9-a8b8-c23979f4c193"
   }
 };
 

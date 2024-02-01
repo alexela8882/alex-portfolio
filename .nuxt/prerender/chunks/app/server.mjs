@@ -562,7 +562,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./assets/cv-Ncp9qzhG.mjs').then((m) => m.default || m)
+    component: () => import('./assets/cv-DZ5KuzfL.mjs').then((m) => m.default || m)
   },
   {
     name: "experience",

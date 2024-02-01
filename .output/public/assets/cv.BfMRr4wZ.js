@@ -1,1 +1,0 @@
-import{u as t,o,v as s,t as c,x as n}from"./entry.Mtp65Wcb.js";const a=n("embed",{src:"/files/AlexanderCV.pdf",width:"100%",height:"100vh"},null,-1),r=[a],h={__name:"cv",setup(u){const e=t();return o(()=>{e.push("contact")}),(_,d)=>(c(),s("div",null,r))}};export{h as default};
