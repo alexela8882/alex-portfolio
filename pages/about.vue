@@ -1,5 +1,8 @@
 <script setup>
 
+// refs
+const router = useRouter()
+
 onMounted(() => {
   window.scrollTo(0, document.body.scrollHeight);
 })
@@ -53,7 +56,7 @@ onMounted(() => {
           </ul>
         </div>
         <div>
-          <a href="~/assets/files/AlexanderCV.pdf" class="text-sm underline dark-green-100">
+          <a @click="router.push('cv')" href="javascript: void(0);" class="text-sm underline dark-green-100">
             see more on my cv...
           </a>
         </div>

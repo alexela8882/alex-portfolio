@@ -1,5 +1,8 @@
 <script setup>
 
+// refs
+const router = useRouter()
+
 onMounted(() => {
   document.getElementById('test').scrollIntoView()
 })
@@ -28,7 +31,7 @@ onMounted(() => {
           <div class="text-sm dark-green-100">Aug 2020 - Sept 2023</div>
         </div>
         <div>
-          <a href="" class="text-sm underline dark-green-100">check my cv...</a>
+          <a @click="router.push('cv')" href="javascript: void(0);" class="text-sm underline dark-green-100">check my cv...</a>
         </div>
       </div>
     </code>
