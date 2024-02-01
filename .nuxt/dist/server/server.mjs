@@ -539,7 +539,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.redirect,
-    component: () => import("./_nuxt/about-vRS7kbFB.js").then((m) => m.default || m)
+    component: () => import("./assets/about-vRS7kbFB.js").then((m) => m.default || m)
   },
   {
     name: "contact",
@@ -547,7 +547,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect,
-    component: () => import("./_nuxt/contact-P7VYVw_U.js").then((m) => m.default || m)
+    component: () => import("./assets/contact-P7VYVw_U.js").then((m) => m.default || m)
   },
   {
     name: "cv",
@@ -555,7 +555,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.redirect,
-    component: () => import("./_nuxt/cv-IKnR39BM.js").then((m) => m.default || m)
+    component: () => import("./assets/cv-IKnR39BM.js").then((m) => m.default || m)
   },
   {
     name: "experience",
@@ -563,7 +563,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect,
-    component: () => import("./_nuxt/experience-E7p2gGJU.js").then((m) => m.default || m)
+    component: () => import("./assets/experience-E7p2gGJU.js").then((m) => m.default || m)
   },
   {
     name: "index",
@@ -571,7 +571,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect,
-    component: () => import("./_nuxt/index-ZmsAFC2y.js").then((m) => m.default || m)
+    component: () => import("./assets/index-ZmsAFC2y.js").then((m) => m.default || m)
   },
   {
     name: "layouts-Header",
@@ -1259,8 +1259,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-9lJneYEW.js").then((r) => r.default || r));
-    const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-UCXAl4iB.js").then((r) => r.default || r));
+    const _Error404 = defineAsyncComponent(() => import("./assets/error-404-xmIWO_NK.js").then((r) => r.default || r));
+    const _Error = defineAsyncComponent(() => import("./assets/error-500-vla-fFjV.js").then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
@@ -1278,7 +1278,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = defineAsyncComponent(() => import("./_nuxt/island-renderer-TMqDuuR1.js").then((r) => r.default || r));
+    const IslandRenderer = defineAsyncComponent(() => import("./assets/island-renderer-TMqDuuR1.js").then((r) => r.default || r));
     const nuxtApp = /* @__PURE__ */ useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;

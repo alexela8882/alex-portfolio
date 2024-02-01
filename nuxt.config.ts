@@ -10,6 +10,8 @@ export default defineNuxtConfig({
   },
   modules: ["@nuxtjs/tailwindcss"],
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' }
+    pageTransition: { name: 'page', mode: 'out-in' },
+    baseURL: '/alex-portfolio/', // baseURL: '/<repository>/'
+    buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
   }
 })

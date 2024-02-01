@@ -20,7 +20,7 @@ import { dirname, resolve } from 'file://C:/Users/alexe/Documents/devs/portfolio
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "60b62976-d8ad-4841-aff8-25bdddd91235"
+    "buildId": "0dcc4316-5ce5-42d3-a63a-9025ce37be0f"
   }
 };
 
@@ -30,8 +30,8 @@ const appConfig = defuFn(inlineAppConfig);
 
 const _inlineRuntimeConfig = {
   "app": {
-    "baseURL": "/",
-    "buildAssetsDir": "/_nuxt/",
+    "baseURL": "/alex-portfolio/",
+    "buildAssetsDir": "assets",
     "cdnURL": ""
   },
   "nitro": {
@@ -40,17 +40,17 @@ const _inlineRuntimeConfig = {
       "/__nuxt_error": {
         "cache": false
       },
-      "/_nuxt/builds/meta/**": {
+      "/assets/builds/meta/**": {
         "headers": {
           "cache-control": "public, max-age=31536000, immutable"
         }
       },
-      "/_nuxt/builds/**": {
+      "/assets/builds/**": {
         "headers": {
           "cache-control": "public, max-age=1, immutable"
         }
       },
-      "/_nuxt/**": {
+      "/assets/**": {
         "headers": {
           "cache-control": "public, max-age=31536000, immutable"
         }
@@ -627,7 +627,7 @@ function readAsset (id) {
   return promises.readFile(resolve(serverDir, assets[id].path))
 }
 
-const publicAssetBases = {"/_nuxt/builds/meta":{"maxAge":31536000},"/_nuxt/builds":{"maxAge":1},"/_nuxt":{"maxAge":31536000}};
+const publicAssetBases = {"/assets/builds/meta":{"maxAge":31536000},"/assets/builds":{"maxAge":1},"/assets":{"maxAge":31536000}};
 
 function isPublicAssetURL(id = '') {
   if (assets[id]) {
